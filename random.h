@@ -1,1 +1,1 @@
-char* randchar();
+char* randchar(); //initializing the function
