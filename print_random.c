@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
+#include "random.h"
 
 
 int main()
@@ -15,6 +15,8 @@ int main()
 	for(a=0;a<7;a++)
 		putchar( randchar() );
 	putchar('\n');
+
+    printf("Done");
 
 	return(0);
 }
